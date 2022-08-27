@@ -5,7 +5,7 @@
     if (! isset($_SESSION['name'])){
         die("ACCESS DENIED");
     }
-
+//coment
     if( isset($_POST['make']) && isset($_POST['model'])
     && isset($_POST['year']) && isset($_POST['mileage'])){
         echo 'done';
